@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Neeraj Mahato</title>
+    <link rel="stylesheet" href="CSS/about.css">
+</head>
+
+<body>
+    <div id="header">
+        <video autoplay muted loop id="bg-video">
+            <source src="videos/video2.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="container">
+            <nav>
+                <a href="index.html"><img src="images/giphy.gif" alt="Coder Logo" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="about_me.html">About Me</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="certification.html">Certifications</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <section id="about">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="about-image">
+                        <img src="images/photo.jpg" alt="Neeraj Mahato Profile Picture">
+                    </div>
+                    <div class="about-content">
+                        <h1 class="title">About Me</h1>
+                        <p class="description">
+                            Greetings! I am <strong>Neeraj Mahato</strong>, an undergraduate student pursuing a degree in <strong>Computer Science and Engineering</strong> at <strong>Lovely Professional University</strong>. I am deeply passionate about <strong>software development</strong>, with a strong focus on technologies such as <strong>React</strong>, <strong>C++</strong>, and <strong>Data Structures & Algorithms</strong>.<br><br>
+                            I enjoy creating engaging and interactive web experiences, and I actively explore <strong>open-source projects</strong> to expand my knowledge and contribute to the developer community.<br>
+                            I am an active member on <strong>GitHub</strong> and <strong>LinkedIn</strong>, where I collaborate with fellow developers and share innovative ideas.
+                        </p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/neerajmahato" target="_blank" title="LinkedIn">
+                                <img src="images/linkedin.jpg" alt="LinkedIn">
+                            </a>
+                            <a href="https://github.com/Neeraj12220989" target="_blank" title="GitHub">
+                                <img src="images/github.png" alt="GitHub">
+                            </a>
+                            <a href="https://leetcode.com/u/Neeraj911/" target="_blank" title="LeetCode">
+                                <img src="images/leetcode.png" alt="LeetCode">
+                            </a>
+                            <a href="https://www.instagram.com/neeraj_mahato_/" target="_blank" title="Instagram">
+                                <img src="images/instagram.jpg" alt="Instagram">
+                            </a>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="gif-trigger">
+        <img src="images/gif2.gif" alt="Click Me" id="gifButton" onclick="handleGifClick()" />
+        <div class="gif-popup" id="gifPopup">
+            <p>Meow Meow! 👋<br>Click Resume button to view the Resume</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Neeraj Mahato. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="JS/about.js"></script>
+    <script src="three.r134.min.js"></script>
+    <script src="vanta.globe.min.js"></script>
+</body>
+
+</html>

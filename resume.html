@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Neeraj Mahato</title>
+    <link rel="stylesheet" href="CSS/resume.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <video autoplay muted loop id="bg-video">
+            <source src="videos/video2.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="container">
+            <nav>
+                <a href="index.html"><img src="images/giphy.gif" alt="Coder Logo" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="about_me.html">About Me</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="certification.html">Certifications</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+
+        <!-- Resume Section -->
+        <section id="resume">
+            <div class="container resume-section">
+                <div class="resume-header">
+                    <h1><strong>My Resume</strong></h1>
+                </div>
+
+                <div class="resume-cards">
+
+                    <!-- Experience Section -->
+                    <div class="resume-card">
+                        <h3>Experience</h3>
+                        <div class="experience-entry">
+                            <div class="exp-container">
+                                <div class="exp-photo">
+                                    <img src="images/outlier AI.jpg" alt="Profile Photo">
+                                </div>
+                                <div class="exp-content">
+                                    <div class="exp-header">
+                                        <div>
+                                            <strong>OUTLIER AI | Math and Coding Specialist</strong><br>
+                                            <em>Outlier</em><br>
+                                        </div>
+                                        <div class="exp-location-date">
+                                            <span>LPU, Punjab</span><br>
+                                            <span>Oct 2024 - Onwards</span>
+                                        </div>
+                                    </div>
+                                    <ul class="exp-list">
+                                        <li>Designed and executed advanced algorithms to enhance AI models' accuracy in solving mathematical and computational problems.</li>
+                                        <li>Collaborated with interdisciplinary teams to optimize machine learning models for mathematical reasoning and problem-solving.</li>
+                                        <li>Conducted in-depth research to refine AI capabilities in understanding and solving scenarios, equations, and real world problems.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Skills Section -->
+                    <div class="resume-card">
+                        <h3>Skills</h3>
+
+                        <!-- Programming Languages -->
+                        <h4>Programming Languages</h4>
+                        <div class="carousel-container">
+                            <div class="carousel">
+                                <div class="skill-item"><img src="images/skill/skill7.png" alt="C++" class="circle-img"><p class="skill-label">C++</p></div>
+                                <div class="skill-item"><img src="images/skill/skill6.png" alt="JAVA" class="circle-img"><p class="skill-label">JAVA</p></div>
+                                <div class="skill-item"><img src="images/skill/python.jpg" alt="Python" class="circle-img"><p class="skill-label">Python</p></div>
+                                <div class="skill-item"><img src="images/skill/skill3.png" alt="JavaScript" class="circle-img"><p class="skill-label">JavaScript</p></div>
+                            </div>
+                        </div>
+
+                        <!-- Tools -->
+                        <h4>Tools</h4>
+                        <div class="carousel-container">
+                            <div class="carousel">
+                                <div class="skill-item"><img src="images/skill/git.png" alt="Git" class="circle-img"><p class="skill-label">Git</p></div>
+                                <div class="skill-item"><img src="images/skill/figma.png" alt="Figma" class="circle-img"><p class="skill-label">Figma</p></div>
+                                <div class="skill-item"><img src="images/skill/skill4.png" alt="MySQL" class="circle-img"><p class="skill-label">MySQL</p></div>
+                            </div>
+                        </div>
+
+                        <!-- Full Stack Development -->
+                        <h4>Full Stack Development</h4>
+                        <div class="carousel-container">
+                            <div class="carousel">
+                                <div class="skill-item"><img src="images/skill/skill1.png" alt="HTML" class="circle-img"><p class="skill-label">HTML</p></div>
+                                <div class="skill-item"><img src="images/skill/skill2.png" alt="CSS" class="circle-img"><p class="skill-label">CSS</p></div>
+                                <div class="skill-item"><img src="images/skill/bootstrap.png" alt="Bootstrap" class="circle-img"><p class="skill-label">Bootstrap</p></div>
+                                <div class="skill-item"><img src="images/skill/skill8.png" alt="React" class="circle-img"><p class="skill-label">React</p></div>
+                                <div class="skill-item"><img src="images/skill/skill9.png" alt="Node.js" class="circle-img"><p class="skill-label">Node.js</p></div>
+                                <div class="skill-item"><img src="images/skill/php.png" alt="PHP" class="circle-img"><p class="skill-label">PHP</p></div>
+                                <div class="skill-item"><img src="images/skill/skill10.png" alt="MongoDB" class="circle-img"><p class="skill-label">MongoDB</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education Section -->
+                    <div class="resume-card">
+                        <h3>Education</h3>
+                        <div class="education-grid">
+
+                            <!-- College -->
+                            <div class="edu-item">
+                                <img src="images/education/LPU.png" alt="College">
+                                <h5>Lovely Professional University</h5>
+                                <p>2022 – Present</p>
+                                <p><strong>CGPA:</strong> 7.9</p>
+                            </div>
+
+                            <!-- School 2 -->
+                            <div class="edu-item">
+                                <img src="images/education/ggps.jpg" alt="School 2">
+                                <h5>Guru Gobind Singh Public School</h5>
+                                <p>2020 – 2022</p>
+                                <p><strong>Result:</strong> 93.4% (CBSE)</p>
+                            </div>
+
+                            <!-- School 1 -->
+                            <div class="edu-item">
+                                <img src="images/education/SAPS.jpg" alt="School 1">
+                                <h5>Sree Ayyappa Public School</h5>
+                                <p>2010 – 2020</p>
+                                <p><strong>Result:</strong> 91% (CBSE)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2025 Neeraj Mahato. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="JS/resume.js"></script>
+</body>
+</html>
